@@ -8,7 +8,9 @@ data "terraform_remote_state" "iksws" {
     }
   }
 }
-
+output "kube_config" {
+	value = intersight_kubernetes_cluster_profile.kubeprofaction.kube_config[0].kube_config
+}
 variable "ikswsname" {
   type = string
 }
