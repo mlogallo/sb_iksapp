@@ -1,2 +1,2 @@
-ikswsname = sb_iks
+ikswsname = iksdeploy
 
